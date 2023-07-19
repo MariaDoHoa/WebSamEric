@@ -1,0 +1,1145 @@
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+.icon {
+    text-align: center;
+    font-size: 15px;
+    background-color: black;
+    color: white;
+}
+
+.icon p {
+    padding-top: 10px;
+    padding-bottom: 10px;
+
+}
+
+.text-primary-500 {
+    color: greenyellow;
+}
+
+/* Header */
+.container {
+    width: 95%;
+}
+
+header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url("https://pagemaker.b-cdn.net/media/35336/1600x971.png");
+    background-position: center;
+    background-size: cover;
+    background-color: rgb(255, 255, 239);
+}
+
+.logo {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 30px;
+    box-sizing: border-box;
+}
+
+.logo img {
+    width: 120px;
+}
+
+.logo a {
+    background-color: rgb(42, 42, 42);
+    color: white;
+    padding: 15px 45px;
+    text-decoration: unset;
+    border-radius: 50px;
+    font-size: 20px;
+    box-sizing: border-box;
+}
+
+.bannerHeader {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 50px;
+}
+
+.bannerHeader article {
+    width: 50%;
+    padding-right: 3%;
+    box-sizing: border-box;
+}
+
+.bannerHeader article h5 {
+    font-size: 20px;
+}
+
+.bannerHeader article h1 {
+    font-size: 50px;
+    padding-top: 20px;
+}
+
+.bannerHeader article p {
+    font-size: 20px;
+    color: rgb(0, 81, 144);
+    padding-top: 20px;
+}
+
+.hireme {
+    background-color: greenyellow;
+    padding: 15px 40px;
+    font-size: 15px;
+    border: unset;
+    border-radius: 40px;
+    font-weight: bold;
+    box-shadow: 0px 10px 20px 0px rgb(210, 210, 210);
+}
+
+.see {
+    margin-left: 30px;
+    padding: 15px 40px;
+    font-size: 15px;
+    border: unset;
+    border-radius: 40px;
+    font-weight: bold;
+    box-shadow: 0px 10px 20px 0px rgb(210, 210, 210);
+}
+
+.buttonHeader {
+    padding-top: 40px;
+}
+
+.imgHeader {
+    width: 50%;
+    padding-right: 5%;
+    box-sizing: border-box;
+    padding-bottom: 40px;
+}
+
+.imgHeader img {
+    width: 100%;
+}
+
+.banner1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.banner1>div {
+    padding-top: 50px;
+    padding-bottom: 50px;
+    width: 85%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.banner1>div img {
+    width: 90px;
+    height: auto;
+}
+
+/* banner 2222222222222222222 */
+.banner2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(244, 250, 218);
+}
+
+.banner2>div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    box-sizing: border-box;
+}
+
+.imgBanner2 {
+    width: 50%;
+    padding-left: 10%;
+    box-sizing: border-box;
+}
+
+.imgBanner2 img {
+    width: 100%;
+}
+
+.banner2>div article {
+    width: 50%;
+    padding-left: 50px;
+    padding-right: 100px;
+    box-sizing: border-box;
+}
+
+.check img {
+    width: 20px;
+}
+
+.banner2>div article h1 {
+    font-size: 50px;
+}
+
+.banner2>div article>p {
+    font-size: 20px;
+    padding-top: 20px;
+    color: rgb(25, 94, 126);
+}
+
+.check>div {
+    display: flex;
+    align-items: center;
+    font-size: 20px;
+    padding-top: 20px;
+}
+
+.check>div p {
+    padding-left: 15px;
+}
+
+.check span {
+    font-weight: bolder;
+}
+
+
+/* banner 3333333333333 */
+.banner3 {
+    padding-bottom: 35px;
+    padding-top: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(0, 53, 18);
+    background-image: url(https://pagemaker.b-cdn.net/media/35264/default.svg);
+    background-position: bottom;
+    background-repeat: no-repeat;
+}
+
+.banner3>div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.banner3>div>div {
+    display: flex;
+    width: 100%;
+    padding-top: 20px;
+    padding-bottom: 50px;
+}
+
+.banner3>div>div article {
+    width: 25%;
+    text-align: center;
+    color: white;
+    border-right: 1px solid rgb(69, 105, 14);
+}
+
+.banner3>div>div article:nth-child(4) {
+    border: unset;
+}
+
+.banner3>div h2 {
+    color: white;
+    font-size: 30px;
+    padding-bottom: 20px;
+}
+
+.banner3>div>div article h1 {
+    font-size: 50px;
+}
+
+.banner3>div>div article span {
+    color: greenyellow;
+}
+
+.banner3>div>div article h5 {
+    font-size: 17px;
+}
+
+
+/* banner 44444444444444444444444444444444444 */
+.banner4 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url("https://pagemaker.b-cdn.net/media/35289/default.svg");
+    background-position: left;
+    background-position-y: bottom;
+    background-repeat: no-repeat;
+    padding-bottom: 100px;
+}
+
+.myservices {
+    padding-top: 100px;
+    padding-bottom: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.myservices h1 {
+    width: 45%;
+    font-size: 50px;
+}
+
+.myservices p {
+    width: 55%;
+    font-size: 20px;
+    color: gray;
+    padding-right: 200px;
+    padding-left: 100px;
+    line-height: 30px;
+}
+
+.CarMyServices {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.CarMyServices article {
+    width: 33.33%;
+    text-align: center;
+    background-color: #f9fee6;
+    padding: 20px;
+    margin-right: 20px;
+    border-radius: 20px;
+    box-sizing: border-box;
+}
+
+.CarMyServices article:nth-child(3) {
+    margin-right: unset;
+}
+
+.CarMyServices article>div {
+    padding-top: 20px;
+}
+
+.CarMyServices article h3 {
+    padding-top: 20px;
+    font-size: 25px;
+}
+
+.CarMyServices article p {
+    font-size: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.buttonBanner4 {
+    padding-top: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.hiremeBanner4 {
+    background-color: greenyellow;
+    padding: 15px 40px;
+    font-size: 15px;
+    border: unset;
+    border-radius: 40px;
+    font-weight: bold;
+}
+
+.seeBanner4 {
+    margin-left: 30px;
+    padding: 15px 40px;
+    font-size: 15px;
+    border: 1px solid black;
+    border-radius: 40px;
+    font-weight: bold;
+    background-color: white;
+}
+
+/* banner 555555555555555555555555555555555555555555 */
+.banner5 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f9fee6;
+    background-image: url("https://pagemaker.b-cdn.net/media/35289/default.svg");
+    background-repeat: no-repeat;
+}
+
+.myProcess {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.myProcess>div {
+    box-sizing: border-box;
+    padding-top: 100px;
+    text-align: center;
+}
+
+.myProcess>div h1 {
+    font-size: 50px;
+}
+
+.myProcess>div p {
+    font-size: 20px;
+    padding-top: 20px;
+    color: gray;
+}
+
+.contentBanner5 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.imgbanner5 {
+    width: 50%;
+    padding: 50px 110px 50px 110px;
+    box-sizing: border-box;
+}
+
+.imgbanner5 img {
+    width: 100%;
+}
+
+.mainContentBanner5 {
+    width: 50%;
+}
+
+.mainContentBanner5 article {
+    width: 70%;
+    display: flex;
+    background-color: white;
+    margin-left: 50px;
+    padding: 20px;
+    margin-bottom: 30px;
+}
+
+.mainContentBanner5 article span {
+    border-radius: 50px;
+    background-color: greenyellow;
+    font-size: 25px;
+}
+
+.mainContentBanner5 article div:nth-child(2) {
+    padding-left: 7px;
+}
+
+.mainContentBanner5 article div:nth-child(2) h3 {
+    font-size: 25px;
+}
+
+.mainContentBanner5 article div:nth-child(2) p {
+    padding-top: 10px;
+    font-size: 20px;
+    color: gray;
+}
+
+
+/* banner 66666666666666666666666666666666 */
+.banner6 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #003512;
+    background-image: url("https://pagemaker.b-cdn.net/media/35264/default.svg");
+    background-repeat: no-repeat;
+    background-position-y: bottom;
+}
+
+.banner6>div article {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.banner6>div article>div img {
+    width: 210px;
+}
+
+.banner6>div article div:nth-child(2) {
+    padding-left: 30px;
+}
+
+.banner6>div article div:nth-child(2) h1 {
+    color: white;
+    font-size: 30px;
+}
+
+.banner6>div article div:nth-child(2) button {
+    margin-top: 20px;
+    background-color: greenyellow;
+    padding: 15px 40px;
+    font-size: 15px;
+    border: unset;
+    border-radius: 40px;
+    font-weight: bold;
+}
+
+/* banner 7777777777777777777777777777777 */
+.banner7 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 50px;
+}
+
+.Have {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 80px;
+    padding-bottom: 50px;
+}
+
+.Have>h1 {
+    font-size: 50px;
+    color: #003512;
+    width: 50%;
+}
+
+.Have>p {
+    width: 50%;
+    font-size: 20px;
+    padding-right: 15%;
+    color: gray;
+}
+
+.contentBanner7 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.contentBanner7 article {
+    width: 50%;
+}
+
+.contentBanner7 article>div {
+    display: flex;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.contentBanner7 article>div>div span {
+    border-radius: 50px;
+    background-color: greenyellow;
+    font-size: 30px;
+    margin-right: 10px;
+}
+
+.contentBanner7 article>div>div:nth-child(2) h3 {
+    font-size: 20px;
+    padding-bottom: 20px;
+}
+
+.contentBanner7 article>div>div:nth-child(2) p {
+    font-size: 18px;
+    color: gray;
+}
+
+
+/* banner888888888888888888888888888888888888888888888888 */
+.banner8 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #003512;
+    background-image: url("https://pagemaker.b-cdn.net/media/35264/default.svg");
+    background-repeat: no-repeat;
+}
+
+.myClients {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 100px;
+    padding-bottom: 50px;
+}
+
+.mainMyClients {
+    text-align: center;
+}
+
+.mainMyClients h1 {
+    font-size: 50px;
+    color: white;
+}
+
+.mainMyClients p {
+    color: white;
+    padding-top: 10px;
+    font-size: 20px;
+}
+
+.contentBanner8 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.contentBanner8 article:nth-child(1) {
+    margin-right: 50px;
+    box-sizing: border-box;
+}
+
+.contentBanner8 article {
+    width: 50%;
+    background-color: #f9fee6;
+    border-radius: 20px;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.contentBanner8 article img {
+    width: 100px;
+}
+
+.contentBanner8 article p {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-size: 20px;
+}
+
+.profileBanner8 {
+    display: flex;
+    align-items: center;
+}
+
+.profileBanner8>div img {
+    width: 70px;
+    border-radius: 50px;
+}
+
+.profileBanner8>div:nth-child(2) {
+    padding-left: 20px;
+}
+
+.profileBanner8>div:nth-child(2) h4 {
+    padding-top: 30px;
+    font-size: 15px;
+    box-sizing: border-box;
+    line-height: 5px;
+}
+
+.profileBanner8>div:nth-child(2) p {
+    font-size: 15px;
+}
+
+.buttonBanner8 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.buttonBanner8 button:nth-child(1) {
+    background-color: greenyellow;
+    padding: 15px 70px;
+    font-size: 15px;
+    border: unset;
+    border-radius: 40px;
+    font-weight: bold;
+}
+
+.buttonBanner8 button:nth-child(2) {
+    margin-left: 10px;
+    padding: 15px 40px;
+    font-size: 15px;
+    border: unset;
+    border-radius: 40px;
+    font-weight: bold;
+}
+
+/* banner 9999999999999999999999999999 */
+.banner9 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url("https://pagemaker.b-cdn.net/media/35453/1600x930.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.banner9>div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+.banner9>div>div {
+    width: 45%;
+}
+
+.banner9>div>div img {
+    width: 100%;
+}
+
+.banner9>div article {
+    width: 55%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-left: 10%;
+    box-sizing: border-box;
+}
+
+.contentBanner9 {
+    text-align: center;
+}
+
+.contentBanner9 span {
+    background-color: white;
+    font-size: 30px;
+    border-radius: 50px;
+}
+
+.contentBanner9 h1 {
+    padding-top: 20px;
+    font-size: 50px;
+    color: #003512;
+}
+
+.contentBanner9 p {
+    font-size: 20px;
+    color: #003512;
+}
+
+.buttonBanner9 {
+    padding-top: 20px;
+    padding-bottom: 20px
+}
+
+.buttonBanner9 button:nth-child(1) {
+    background-color: greenyellow;
+    padding: 15px 70px;
+    font-size: 15px;
+    border: unset;
+    border-radius: 40px;
+    font-weight: bold;
+}
+
+.buttonBanner9 button:nth-child(2) {
+    margin-left: 10px;
+    padding: 15px 40px;
+    font-size: 15px;
+    border: unset;
+    border-radius: 40px;
+    font-weight: bold;
+}
+
+.logoBanner9 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-top: 20px;
+}
+
+.logoBanner9 div {
+    width: 33.33%;
+}
+
+.logoBanner9 div img {
+    width: 40%;
+}
+
+/* banner 100000000000000000000000000000 */
+.banner10 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url("https://pagemaker.b-cdn.net/media/35409/1600x459.png");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.banner10>div {
+    display: flex;
+}
+
+.banner10>div article {
+    padding-top: 30px;
+    padding-bottom: 50px;
+    width: 30%;
+}
+
+.banner10>div article h1 {
+    color: white;
+    font-size: 50px;
+}
+
+.banner10>div article p {
+    color: white;
+    font-size: 20px;
+    padding-top: 10px;
+}
+
+.banner10>div article input {
+    margin-top: 20px;
+    width: 90%;
+    padding: 10px;
+    border-radius: 10px;
+    border: unset;
+}
+
+.banner10>div article button {
+    margin-top: 20px;
+    width: 90%;
+    padding: 10px;
+    border-radius: 20px;
+    background-color: greenyellow;
+}
+
+/* footerrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrr */
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+}
+
+footer>div {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.pageFooter {
+    color: white;
+}
+
+.linkFooter {
+    display: flex;
+}
+
+.logoFooter img {
+    width: 100px;
+}
+
+/* media header 720px */
+@media screen and (max-width:720px) {
+    .bannerHeader {
+        flex-direction: column-reverse;
+        padding-bottom: 50px;
+    }
+
+    .imgHeader {
+        width: unset;
+        padding-right: unset;
+    }
+
+    .bannerHeader article {
+        width: unset;
+        text-align: center;
+    }
+}
+
+@media screen and (max-width:480px) {
+    .bannerHeader {
+        flex-direction: column-reverse;
+        padding-bottom: 50px;
+    }
+
+    .imgHeader {
+        width: unset;
+        padding-right: unset;
+    }
+
+    .bannerHeader article {
+        width: unset;
+        text-align: center;
+    }
+}
+
+/* media banner1  */
+@media screen and (max-width:480px) {
+    .banner1>div img {
+        width: 70px;
+    }
+}
+
+/* media query banner 2 720px */
+@media screen and (max-width:720px) {
+    .banner2>div {
+        flex-direction: column;
+        padding: 50px 0px;
+    }
+
+    .banner2>div article {
+        width: unset;
+        text-align: center;
+        padding: unset;
+        padding-top: 20px;
+    }
+
+    .banner2>div article .check {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .imgBanner2 {
+        width: unset;
+        padding: unset;
+    }
+}
+
+@media screen and (max-width:480px) {
+    .banner2>div {
+        flex-direction: column;
+        padding: 50px 0px;
+    }
+
+    .banner2>div article {
+        width: unset;
+        text-align: center;
+        padding: unset;
+        padding-top: 20px;
+    }
+
+    .banner2>div article .check {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .imgBanner2 {
+        width: unset;
+        padding: unset;
+    }
+}
+
+
+/* media query banner my services 720px */
+@media screen and (max-width:720px) {
+    .banner4 {
+        padding-bottom: 50px;
+    }
+
+    .myservices {
+        flex-direction: column;
+        padding-top: 50px;
+    }
+
+    .myservices h1 {
+        width: unset;
+    }
+
+    .myservices p {
+        width: unset;
+        padding: unset;
+        text-align: center;
+    }
+
+}
+
+@media screen and (max-width:480px) {
+    .banner4 {
+        padding-bottom: 50px;
+    }
+
+    .myservices {
+        flex-direction: column;
+        padding-top: 50px;
+    }
+
+    .myservices h1 {
+        width: unset;
+    }
+
+    .myservices p {
+        width: unset;
+        padding: unset;
+        text-align: center;
+    }
+
+}
+
+/* media query banner My Process 720px */
+@media screen and (max-width:720px) {
+
+    .contentBanner5 {
+        flex-direction: column;
+    }
+
+    .contentBanner5 .imgbanner5 {
+        width: unset;
+    }
+
+    .mainContentBanner5 {
+        width: unset;
+    }
+
+    .mainContentBanner5 article {
+        width: unset;
+        margin-left: unset;
+    }
+}
+
+@media screen and (max-width:480px) {
+
+    .contentBanner5 {
+        flex-direction: column;
+    }
+
+    .contentBanner5 .imgbanner5 {
+        width: unset;
+    }
+
+    .mainContentBanner5 {
+        width: unset;
+    }
+
+    .mainContentBanner5 article {
+        width: unset;
+        margin-left: unset;
+    }
+}
+
+/* media query banner let's have 720px */
+@media screen and (max-width:720px) {
+    .Have {
+        flex-direction: column;
+    }
+
+    .Have h1 {
+        width: unset;
+        padding: unset;
+        text-align: center;
+    }
+
+    .Have p {
+        width: unset;
+        padding: unset;
+        text-align: center;
+        padding-top: 20px;
+    }
+
+    .contentBanner7 {
+        flex-direction: column;
+    }
+
+    .contentBanner7 article {
+        width: unset;
+    }
+
+    .contentBanner7 article img {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width:480px) {
+    .Have {
+        flex-direction: column;
+    }
+
+    .Have h1 {
+        width: unset;
+        padding: unset;
+        text-align: center;
+    }
+
+    .Have p {
+        width: unset;
+        padding: unset;
+        text-align: center;
+        padding-top: 20px;
+    }
+
+    .contentBanner7 {
+        flex-direction: column;
+    }
+
+    .contentBanner7 article {
+        width: unset;
+    }
+
+    .contentBanner7 article img {
+        width: 100%;
+    }
+}
+
+/* media banner myClients */
+@media screen and (max-width:480px) {
+    .contentBanner8 {
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .contentBanner8 article:nth-child(1) {
+        margin: unset;
+    }
+
+    .contentBanner8 article {
+        width: unset;
+    }
+}
+
+/* media banner Some Stats */
+@media screen and (max-width:480px) {
+    .banner3>div>div article h1 {
+        font-size: 30px;
+    }
+}
+
+/* media query banner contentBanner9 720px */
+@media screen and (max-width:720px) {
+    .banner9>div {
+        flex-direction: column;
+    }
+
+    .banner9>div article {
+        width: unset;
+        padding: unset;
+    }
+
+    .banner9>div>div {
+        width: unset;
+    }
+}
+
+@media screen and (max-width:480px) {
+    .banner9>div {
+        flex-direction: column;
+    }
+
+    .banner9>div article {
+        width: unset;
+        padding: unset;
+    }
+
+    .banner9>div>div {
+        width: unset;
+    }
+}
+
+/* media query banner10 720px */
+@media screen and (max-width:720px) {
+    .banner10>div article {
+        width: 50%;
+    }
+}
+
+@media screen and (max-width:480px) {
+    .banner10>div {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .banner10>div article {
+        width: unset;
+        text-align: center;
+    }
+}
